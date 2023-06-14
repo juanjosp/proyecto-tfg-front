@@ -1,0 +1,311 @@
+#inicio--imgfondo__mask {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 600px;
+}
+
+.navbar--ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar--li {
+  margin: 0 10px;
+}
+
+
+.navbar--navlink {
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+.navbar--bg__rojomarvel {
+  background-color: #55acee;
+}
+
+.navbar--btn {
+  border-color: #55acee;
+  color: #fff;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.navbar--btn:hover {
+  box-shadow: 0 0 10px 0 #0069a2 inset, 0 0 10px 4px #0069a2;
+}
+
+.footer--bg__negro {
+  background-color: black;
+}
+
+.footer--border {
+  border-top: 1px solid white;
+}
+
+.footer--bgfacebook {
+  background-color: #3b5998
+}
+
+.footer--bgtwitter {
+  background-color: #55acee
+}
+
+.footer--bggoogle {
+  background-color: #dd4b39
+}
+
+.footer--bginstagram {
+  background-color: #ac2bac
+}
+
+.footer--bglinkedin {
+  background-color: #0082ca
+}
+
+.mb-5 {
+  margin-bottom: 15px !important;
+}
+
+.footer--bggithub {
+  background-color: #333333
+}
+
+.btn-circle.btn-foot {
+  width: 45px;
+  height: 45px;
+  padding: 6px 0px;
+  border-radius: 30px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.scroll {
+  width: 100%;
+  height: auto;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.card--css {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.link-css {
+  color: rgb(43, 43, 43);
+  text-decoration: none;
+}
+
+.link-css:hover {
+  color: black;
+  text-shadow: 0px 0px 1px black;
+}
+
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+  border: 1.1px solid #ddd;
+  padding: 0.5rem;
+}
+
+.tabla-general {
+  background-color: #0069a2;
+  color: white;
+  border-bottom: 0px solid #0069a2;
+}
+
+
+/* Estilos de las celdas de cabecera */
+.tabla-epica {
+  color: #FFF;
+  font-weight: bold;
+  padding: 15px;
+  text-transform: uppercase;
+  animation-name: color-change-epic;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+.tabla-legendaria {
+  color: #FFF;
+  font-weight: bold;
+  padding: 15px;
+  text-transform: uppercase;
+  animation-name: color-change-legendary;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+/* Estilos de las filas impares */
+tbody tr:nth-child(odd) {
+  background-color: #F5F5F5;
+}
+
+/* Estilos de las filas pares */
+tbody tr:nth-child(even) {
+  background-color: #FFF;
+}
+
+/* Estilos para cuando el cursor está encima de una fila */
+tbody tr:hover {
+  background-color: #DDDDDD;
+  cursor: pointer;
+}
+
+.dashboard-container2 {
+  display: flex;
+  margin-bottom: 25px;
+
+}
+
+
+.dashboard-card2 {
+  flex: 1;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+}
+
+.dashboard-card2 img {
+  width: 80px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.dashboard-card2 h2 {
+  font-size: 18px;
+}
+
+.dashboard-card2 a {
+  text-decoration: none;
+  color: #333;
+}
+
+.dashboard-container {
+  display: flex;
+  margin-bottom: 25px;
+
+}
+
+.dashboard-card {
+  flex: 1;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+}
+
+.dashboard-card img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.dashboard-card h2 {
+  font-size: 18px;
+}
+
+.dashboard-card a {
+  text-decoration: none;
+  color: #333;
+}
+
+
+
+.table-container {
+  overflow-x: auto;
+}
+
+
+
+.tamaño-max {
+  width: 100vh;
+  height: 100vh;
+}
+
+
+.bg-blanco {
+
+  background-color: #F5F5F5;
+
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+  /* styles for screens smaller than 768px */
+  .table-responsive {
+    overflow-x: auto;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+
+  /* styles for screens smaller than 576px */
+  .table-responsive {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+form {
+  margin: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  padding: 8px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 8px 16px;
+  background-color: #0069a2;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 15px;
+}
+
+button:hover {
+  background-color: #0069a2;
+}
+
+
+.font--error {
+  font-size: 2em;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.font--404 {
+  font-size: 4em;
+}
+
+.p-navbar {
+  padding: 33px;
+}
